@@ -22,7 +22,7 @@ public class VideoCassetteApi {
     public Iterable<VideoCassette> getAll() {
         return videoCassettes.findAll();
     }
-
+//koment
     @GetMapping
     public Optional<VideoCassette> getById(@RequestParam Long index) {
         return videoCassettes.findById(index);
